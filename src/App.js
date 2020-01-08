@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import RouteManager from './RouteManager.js';
+import GameRouteManager from './GameRouteManager.js';
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
           <h1>GG WP</h1>
         </Link>
         
-        <RouteManager></RouteManager>
+        <GameRouteManager></GameRouteManager>
       </div>
     </Router>
   );
