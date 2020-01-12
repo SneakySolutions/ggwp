@@ -1,10 +1,11 @@
 import React from 'react';
+import '../common/tree.css';
 
 class Hearthstone extends React.Component {
   render() {
     return (
       <div>
-        Hearthsone game here
+        HS competition here
       </div>
     )
   }
